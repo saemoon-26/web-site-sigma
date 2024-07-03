@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    /* class with specific id */
+    #parent .child {
+      background-color: aqua;
+      height: 40px;
+      width: 80px;
+    }
+     /* select child of element with a specific class  */
+
+    .papa > .child1 {
+      background-color: aqua;
+      height: 80px;
+      width: 80px;
+      margin: 40px;
+      padding: 10px;
+    }
+ /* css to nth number of element or list  */
+    li:nth-child(3){
+        background-color: aqua;
+      height: 40px;
+      width: 80px;
+      margin: 40px;
+      padding: 10px;
+    }
+    /* li:nth-child(even){
+        background-color: aqua;
+      height: 40px;
+      width: 80px;
+      margin: 40px;
+      padding: 10px;
+    } */
+    /* li:nth-child(odd){
+        background-color: aqua;
+      height: 40px;
+      width: 80px;
+      margin: 40px;
+      padding: 10px;
+    } */
+    /* li:nth-child(n){
+        background-color: aqua;
+      height: 40px;
+      width: 80px;
+      margin: 40px;
+      padding: 10px;
+    } */
+     input[type="text"]{
+        background-color: rgb(55, 52, 52);
+        font-size: large;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        margin: 10px;
+        font-size: 20px;
+
+     }
+     input[name="email"]{
+        background-color: rgb(55, 52, 52);
+        font-size: 20px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        margin: 10px;
+     }
+     input[value="true"]{
+        color:red;
+             }
+   .forms{
+    background-color: rgb(196, 222, 222);
+    height: 25vh;
+    width: 50vh;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 25px;
+   }
+  
+              
+  </style>
+  
+  <body>
+    <!-- class with specific id -->
+    <div id="parent">
+      outside from class
+      <div class="child">class with specific id</div>
+    </div>
+    <div class="childddd">h</div>
+
+    <!-- select child of element with a specific class -->
+    <div class="papa">
+      <div class="child1">only child with specific class
+        <div class="child1-1">hnjanj</div>
+      </div>
+
+      <!-- css to nth number of element or list -->
+      
+        <ul>
+          <li>item 1</li>
+          <li>item 2</li>
+          <li>item 3</li>
+          <li>item 4</li>
+          <li>item 5</li>
+        </ul>
+        <!-- to select input feilds with specific types -->
+        <!-- to select input feilds with specific name -->
+        
+        <div class="forms">
+            <div>
+             <label for="form">NAME</label>
+            <input type="text" name="" id="form" placeholder="type your name">
+         </div>
+         <div>
+            <label for="email" name="email">EMAIL</label>
+            <input id="email" name="email" placeholder="enter your email">
+         </div>
+         <div>
+            <label for="radio">male</label>
+            <input type="radio"name="male" id="radio">
+            <label for="radio">female</label>
+            <input type="radio" id="radio">
+         </div>
+         <div>
+             <label for="checkbox">i am human</label>
+            <input type="checkbox" name="" id="checkbox" value="true">
+            <label for="checkbox">i am not human</label>
+            <input type="checkbox" value="false">
+            
+         </div>
+         <div><input type="submit"></div>
+        </div>
+        <!-- to select the last input feild             -->
+        <form action="">
+            <input type="text">
+            <input type="email">
+<input type="submit">
+        </form>
+  </body>
+</html>
