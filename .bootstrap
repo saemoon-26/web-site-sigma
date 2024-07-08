@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      .container {
+        border: 2px solid black;
+      }
+      .col img {
+        margin: 8px;
+        vertical-align: middle;
+        width: 400px;
+      }
+      .row {
+      }
+
+      .row {
+        margin: 30px;
+      }
+      .col {
+        border: 2px solid gray;
+      }
+      thead tr{
+      background-color: rgb(13, 14, 14);
+color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">WebSiteName</a>
+        </div>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Page 1</a></li>
+            <li><a href="#">Page 2</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+          <form class="navbar-form navbar-right" action="/action_page.php">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div>
+        
+      </div>
+    </nav>
+
+
+
+    <br><br><br>
+    <div class="btn btn-primary">click me</div>
+    <div class="container">
+      <div class="row">
+        <div class="cols col-lg-12 col-xs-12">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0CGkdD0u_739pkUx3C97ev4iSwj8slZ-w1g&s"
+            class="img-responsive"
+            width="100%"
+            height="100px"
+          />
+        </div>
+        <!-- <div class="col col-xs-6 col-md-4">.col-xs-6 .col-md-4</div> -->
+      </div>
+      <div class="row">
+        <div class="col col-lg-4 col-md-4 col-sm-6">
+          <img
+            src="https://cdn.thewirecutter.com/wp-content/media/2024/05/running-shoes-2048px-9718.jpg"
+            class="img-responsive"
+            alt=""
+            width="250px"
+            class="img-thumbnail"
+          />
+        </div>
+        <div class="col col-lg-4 col-md-4 col-sm-6">
+          <img
+            src="https://shoesquare.pk/cdn/shop/products/SSN004-Available-at-Shoe-Square-310_600x.jpg?v=1712113993"
+            alt=""
+            class="img-responsive"
+            class="img-thumbnail"
+            height="10px"
+            width="250px"
+          />
+        </div>
+        <div class="col col-lg-4 col-md-4 col-sm-12">
+          <img
+            src="https://t3.ftcdn.net/jpg/06/12/00/18/360_F_612001823_TkzT0xmIgagoDCyQ0yuJYEGu8j6VNVYT.jpg"
+            alt=""
+            class="img-responsive"
+            width="250px"
+            class="img-thumbnail"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-lg-4 col-md-4 col-sm-6">
+          <img
+            src="https://spunkymart.pk/cdn/shop/files/velvet-flat-pumps.jpg?v=1709027831&width=1445"
+            width="250px"
+            class="img-responsive"
+            alt=""
+          />
+        </div>
+        <div class="col col-lg-4 col-md-4 col-sm-6">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUYFrtkWoGuph2_Ucw5DrHkJiBC1y9fCYO8Q&s"
+            alt=""
+            width="250px"
+            class="img-responsive"
+          />
+        </div>
+        <div class="col col-lg-4 col-md-4 col-sm-12">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJf07tmHG25_kqARIUUEUK2mgT7nmS2lETxA&s"
+            class="img-responsive"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <blockquote>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+        erat a ante.
+      </p>
+    </blockquote>
+    <table class=" table table-bordered table-striped table-hover table-condensed ">
+      <thead>
+        <tr>
+          <th>name</th>
+          <th>class</th>
+          <th>roll no</th>
+          <th>phone no</th>
+        </tr>
+      </thead>
+      <tbody class="">
+        <tr class="table active">
+          <td>saemoon</td>
+          <td>saemoon</td>
+          <td>saemoon</td>
+          <td>saemoon</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr class="table warning">
+          <td>saemoon</td>
+          <td>saemoon</td>
+          <td>saemoon</td>
+          <td>saemoon</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr class="table success">
+          <td>saemoon</td>
+          <td>saemoon</td>
+          <td>saemoon</td>
+          <td>saemoon</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr class="table danger">
+          <td>saemoon</td>
+          <td>saemoon</td>
+          <td>saemoon</td>
+          <td>saemoon</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr class="table info">
+          <td>saemoon</td>
+          <td>saemoon</td>
+          <td>saemoon</td>
+          <td>saemoon</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
