@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+  width: 50%;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"], input[type="number"] {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+select {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  width: 100%;
+  height: 40px;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+    </style>
+</head>
+<body>
+    <!-- <p id="first">heloow</p> -->
+    <button id="first">first button</button>
+    <button id="second">second button</button>
+    <button id="third">third button</button>
+    <button id="fourth">fourth button</button>
+    <button id="fifth">fifth button</button>
+<p id="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum sit aperiam molestiae fugit tenetur sint fuga dolorum, suscipit obcaecati inventore saepe voluptatem qui! Illum tenetur, natus quaerat veniam itaque doloremque eum in est voluptatum voluptate consectetur ex hic soluta unde suscipit tempore saepe officiis vero.</p>
+
+
+<button id="clickme">options</button>
+<div class="slide">1</div>
+<div class="slide">2</div>
+<div class="slide">3</div>
+<div class="slide">4</div>
+<button id="boxAni">box animations</button>
+<div class="box" id="box1" style="background-color: aqua;width: 40px;padding: 40px;border: 2px solid ;margin: 10px;"></div>
+<div class="box" id="box2"style="background-color: rgb(224, 116, 33);width: 40px; padding: 40px;border: 2px solid;  margin: 10px;  margin-left: 50px;"></div>
+<div class="box"id="box3" style="background-color: rgb(212, 224, 40);width: 40px; padding: 40px;border: 2px solid; margin: 10px; margin-left: 100px;"></div>
+
+
+<form id="form">
+<div class="getsvalue"></div>
+
+</div><label for="name">Name:</label>
+<input type="text" id="name" name="name" value="name">
+    <div>
+        
+    </div> <label for="age">Age:</label>
+     <input type="number" id="age" name="age" value="age">
+   <div>
+    
+    <div>
+        <label for="">country</label>
+       <select name="" id="select">
+        <option value="pakistan">pakistan</option>
+        <option value="korea">korea</option>
+        <option value="turkey">turkey</option>
+        <option value="london">london</option>
+       </select>
+    </div>
+<div>
+    <input type="submit" value="submit" id="submit">
+</div>
+<div class="getvalue"></div>
+</form>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+
+</body>
+</html>
